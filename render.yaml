@@ -1,7 +1,7 @@
 databases:
 - name: discourse-db
   plan: standard
-  storage: 2GB   # Minimum 1 GB; adjust as needed
+  storage: 2GB
 services:
 - type: web
   name: discourse-web
